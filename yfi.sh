@@ -40,6 +40,7 @@ sed -i 's/http:/https:/g' /tmp/old_yturl.txt
 
 # Display new url
 
+#Append html5 argument
 echo `cat /tmp/old_yturl.txt`"?html5=1"
 
 # rm tmp file
